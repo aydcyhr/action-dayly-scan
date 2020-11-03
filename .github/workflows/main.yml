@@ -1,6 +1,7 @@
 #每天9:30&21:30执行(东八区1+8=9  13+8=21)
 name: Dayly Scan
 
+on: [push]
 on:
    gollum:
    schedule:
