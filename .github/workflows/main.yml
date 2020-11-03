@@ -18,4 +18,4 @@ jobs:
 
     - name: Update paper list
       run: |
-        pip install flask
+        python main.py
