@@ -15,4 +15,5 @@ jobs:
         python-version: 3.7
     - name: run
       run: |
+        pip install -r requirement.txt
         python main.py
